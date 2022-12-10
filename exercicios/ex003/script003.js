@@ -1,3 +1,5 @@
+//Data Types
+
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
 
@@ -17,3 +19,13 @@ year = 1994;
 console.log(year);
 
 console.log(typeof null);
+
+
+// Exercício
+
+let isIsland = false;
+let language;
+console.log(typeof isIsland);
+console.log(typeof population);
+console.log(typeof country);
+console.log(typeof language);

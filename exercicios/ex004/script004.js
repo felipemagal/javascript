@@ -1,9 +1,12 @@
+//let, const e var
+
+
 //let é usado para variáveis que em algum momento podem mudar seu valor. Como a idade de uma pessoa.
 
 let age = 30;
 age = 31;
 
-//const é usado para variáveis que não podem mudar. Como o ano de nascimento de uma pessoa. A linha 9 do exemplo abaixo está errada.
+//const é usado para variáveis que não podem mudar. Como o ano de nascimento de uma pessoa. A linha 12 do exemplo abaixo está errada.
 
 const birthYear = 1994;
 // birthYear = 1995;
@@ -22,3 +25,12 @@ console.log(job);
 
 lastName = 'Sousa';
 console.log(lastName);
+
+// exercício - exemplo de que não é possível mudar uma varável const.
+
+language = 'portuguese';
+const country = 'Brazil';
+const continent = 'South America';
+const isIsland = false;
+
+continent = 'Europe'

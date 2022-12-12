@@ -30,3 +30,15 @@ console.log(ageFelipe >= 18);
 const isFullAge = ageFelipe >= 18;
 
 console.log(now - 1994 < now - 1990);
+
+// Exercício
+
+let populationBrazil = 200
+
+console.log(populationBrazil / 2);
+populationBrazil++;
+console.log(populationBrazil)
+
+let populationFinland = 6
+
+console.log(populationFinland > populationBrazil)

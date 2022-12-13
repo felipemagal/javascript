@@ -1,14 +1,19 @@
-const heightMark = 1.69;
-const weightMark = 78;
+// TEST DATA 1
 
-heightMark ** 2
-console.log(heightMark ** 2)
+// const masstMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
 
-weightMark / heightMark ** 2
-console.log(weightMark / heightMark ** 2)
+// TEST DATA 2
 
-const heightJohn = 1.95;
-const weightJohn = 92;
+const masstMark = 95;
+const heightMark = 1.88;
+const massJohn = 85;
+const heightJohn = 1.76;
 
-console.log(weightJohn / heightJohn ** 2)
+const BMIMark = masstMark / heightMark ** 2;
+const BMIJohn = massJohn / heightJohn ** 2;
+const markHigherBMI = BMIMark > BMIJohn;
 
+console.log(BMIJohn, BMIMark, markHigherBMI);

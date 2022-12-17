@@ -6,6 +6,8 @@ const year = 2037;
 const felipe = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
 console.log(felipe);
 
+// Esse é o formato usado hoje para escrever strings sem precisar se preocupar onde colocar os espaços.
+
 const felipeNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`
 console.log(felipeNew);
 

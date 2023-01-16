@@ -1,4 +1,4 @@
-cont day = 'monday';
+const day = 'monday';
 
 switch (day) {
     case 'monday':

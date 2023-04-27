@@ -14,15 +14,19 @@ const nameKey = 'Name';
 console.log(felipe['first' + nameKey]);
 console.log(felipe['last' + nameKey]);
 
-const interestedIn = prompt('What do you want to know about Felipe? Choose between firstName, lastName, age, job and friends');
+const interestedIn = prompt('What do you want to know about Felipe? Choose between firstName, lastName, age, job, location and friends');
 
 
 if (felipe[interestedIn]) {
     console.log(felipe[interestedIn]);
 } else {
-    console.log('Wrong request! Choose between firstName, lastName, age, job and friends')
+    console.log('Wrong request! Choose between firstName, lastName, age, job, location and friends')
 }
 
-// Desafio
+felipe.location = 'Brazil';
+felipe['twitter'] = '@protegidodaKGB';
+console.log(felipe)
+
+// // Desafio
 // "Felipe has 3 friends, and his best friend is called Dani"
 console.log(`${felipe.firstName} has ${felipe.friends.length} friends, and his best friends is called ${felipe.friends[0]}`);

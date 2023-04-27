@@ -20,7 +20,7 @@ const interestedIn = prompt('What do you want to know about Felipe? Choose betwe
 if (felipe[interestedIn]) {
     console.log(felipe[interestedIn]);
 } else {
-    console.log('Wrong request! Choose between firstName, lastNmae, age, job and friends')
+    console.log('Wrong request! Choose between firstName, lastName, age, job and friends')
 }
 
 // Desafio

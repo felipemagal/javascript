@@ -1,5 +1,1 @@
-console.log("Felipe 'Magalhães'");
-console.log('Felipe "Magalhães"');
-console.log(`'Felipe' "Magalhães"`);
-
-console.log(123456, 15.264, "Felipe Magal");
+console.log(`Meu nome é "Felipe". Estou aprendendo JavaScript às 20 da noite.`);

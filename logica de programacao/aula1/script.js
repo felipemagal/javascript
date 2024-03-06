@@ -73,21 +73,32 @@
       
       //SWITCH
 
-      var n1 = Number(prompt("Digite um número de 1 a 6"));
+      // var n1 = Number(prompt("Digite um número de 1 a 6"));
 
-      switch(n1) {
-        case 1:
-          alert("Tente novamente")
-          break;
+      // switch(n1) {
+      //   case 1:
+      //     alert("Tente novamente")
+      //     break;
           
-        case 2:
-          alert("você quase acertou")
-          break;
+      //   case 2:
+      //     alert("você quase acertou")
+      //     break;
 
-        case 3: 
-          alert("Você acertou o número")
-          break;
+      //   case 3: 
+      //     alert("Você acertou o número")
+      //     break;
         
-        default: 
-        alert("Dica: escolha de 1 a 3")
+      //   default: 
+      //   alert("Dica: escolha de 1 a 3")
+      // };
+
+      // REPETIÇÕES
+
+      var numero = Number(prompt("Digite um número"));
+
+      var i = 1;
+
+      while(i <= 1000) {
+        console.log(`${numero} x ${i} = ${numero*i}`)
+        i = i + 1
       };

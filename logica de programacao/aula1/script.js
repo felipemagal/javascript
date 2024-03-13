@@ -94,11 +94,56 @@
 
       // REPETIÇÕES
 
-      var numero = Number(prompt("Digite um número"));
+      //  var numero = Number(prompt("Digite um número"));
 
-      var i = 1;
+      // var i = 1;
 
-      while(i <= 1000) {
-        console.log(`${numero} x ${i} = ${numero*i}`)
-        i = i + 1
+      // while(i <= 1000) {
+      //   console.log(`${numero} x ${i} = ${numero*i}`)
+      //   i = i + 1
+      // };
+
+      // for(var i = 1; i <= 1000; i++) {
+      //   console.log(`${numero} x ${i} = ${numero*i}`);
+      //   i = i + 1
+      // };
+
+      // var num = Number(prompt("bote um número"));
+      // var i = 1;
+
+      // while (i <= 1000) {
+      //   console.log(`${num} x ${i} = ${num*i}`);
+        
+      //   if (i % 10 === 0) {
+          
+      //     console.log(`<hr>`)
+      //   }
+      //   i = i + 1;
+
+      // };
+
+      //----------------------------//--------------------------------//
+
+      // Exercício - Mostre no console os anos a partir de 1004 até 2024, pulando de quatro em quatro anos
+
+      // var ano = 1004;
+
+      // while (ano <= 2024) {
+      //   console.log(ano);
+
+      //   ano += 4
+      // };
+
+
+      var ano = 1004;
+
+      while(ano <= 2024) {
+
+        if(!(ano % 100 === 0) || (ano % 400 === 0)){
+            console.log(ano);
+        } else {
+          console.log(`${ano} não é bissexto`);
+        }
+
+        ano += 4
       };

@@ -135,15 +135,15 @@
       // };
 
 
-      var ano = 1004;
+      // var ano = 1004;
 
-      while(ano <= 2024) {
+      // while(ano <= 2024) {
 
-        if(!(ano % 100 === 0) || (ano % 400 === 0)){
-            console.log(ano);
-        } else {
-          console.log(`${ano} não é bissexto`);
-        }
+      //   if(!(ano % 100 === 0) || (ano % 400 === 0)){
+      //       console.log(ano);
+      //   } else {
+      //     console.log(`${ano} não é bissexto`);
+      //   }
 
-        ano += 4
-      };
+      //   ano += 4
+      // };

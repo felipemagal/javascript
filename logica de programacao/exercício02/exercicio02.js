@@ -4,8 +4,7 @@ n1 = parseFloat(n1);
 escreve();
 
 function escreve() {
-    var output = document.querySelector('#output');
-    output.innerHTML = n1;
+    var output = document.querySelector('#output').innerHTML = n1;
 }
 
 function calcular(simbolo) {
@@ -23,7 +22,7 @@ function calcular(simbolo) {
             n1 *= n;
             break;
         case '/':
-            n1 /= n;
+            n1 /=  n;
     }
 
     escreve()
